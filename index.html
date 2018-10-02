@@ -12,52 +12,64 @@
 </head>
 <body style="background-color: lightgray" >
     <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light w-100 p-1 bg-white ">
-                <div class="navbar-brand d-flex mr-auto p-1" href="index.html" style="background-color: #4aaaa5;color: white; text-align: center; padding: 20px" >
-                  <h1> Janel Jones</h1> 
-                </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-               
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">About</a><span></span></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a><span></span></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a><span></span></li>    
-                    </ul>
-                </div>
-                
-            </nav>
+        <nav class="navbar navbar-expand-md navbar-light w-100">
+            <div class="navbar-brand d-flex mr-auto" href="index.html" style="text-align: center; text-decoration:none" >
+                <a class = "text-dark" href="#">Janel Jones</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav list-reset ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">About</a><span></span></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Projects</a><span></span></li>    
+                 </ul>
+            </div>    
+        </nav>
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-6 mx-auto d-block text-center">
+                <img src="images/ProfilePic.jpg" alt="Profile Picture" class="rounded-circle img-thumbnail mx-auto d-block img-fluid"width="30%" height="30%">  
+                <h1 class="display-4 font-italic">Software Developer</h1>
+            </div>
+        </div>
 
     </div>
-    
-    <main role="main" class="container rounded box-shadow my-3 p-3 w-auto " >
-        <div class="row bg-white" style="color: #4aaaa5">
-            <div class="col-lg-6">
+
+        <main role="main" class="container block p3 " >
+    <!-- <main role="main" class="container rounded box-shadow my-3 p-3 w-auto " > -->
+        <div class="row mxn2 pb-6" >
+            <div class=" col col-sm-9 px2">
                 <h2 class="border-bottom border-gray pb-3 mb-3">About Me</h2>
-            </div>     
-        </div>
-        <div class="row bg-white p-3">
-            <div class="col-lg-6 pull-right">
-                <img src="images/ProfilePic.jpg" alt="Profile Picture" class="pull-left pr-2 img thumbnail center-block" width="35%" height="60%">
                 <p>I was born and raised in Virginia and I most recently adopted a 4 month old Border Terrier. I graduated in 2013 with a Bachelor of Science degree in Computer Engineering from Virginia Tech.  I currently work as an interactive voice response developer for a small software development company.  </p>
                 <p>After viewing a lot of interesting websites through work and everyday life I became interested what goes into a website and how to create them. I joined GW bootcamp to learn how to create websites and expand my career opportunities.</p>
-                <p>Feel free to<a class="p-1" href="contact.html">contact</a>me or check out some of my<a class="p-1" href="portfolio.html">projects!</a></p>
+                <p>Feel free to email me at <a class="p-1" href="contact.html">jmj928@vt.edu</a>me or check out some of my<a class="p-1" href="portfolio.html">projects!</a></p>
+            </div>    
+            <div class="col col-sm-3 px2 ">
+                <h2 class="border-bottom border-gray pb-3 mb-3">Contact</h2>
+                    <div class = "clearfix">
+                        <ul class="list-unstyled list-reset">
+                           <li> <a href="https://www.linkedin.com/in/janel-jones-9552a247/" target="_blank" class="col dark-gray width-120">
+                                <i class="fa fa-fw fa-2x fa-linkedin-square valign-middle"></i>
+                                <span class="h5 header-font">LinkedIn</span></a></li>
+                           <li> <a href="https://github.com/jmj928" target="_blank" class="col dark-gray width-120">
+                                <i class="fa fa-fw fa-2x fa-github-square valign-middle"></i>
+                                <span class="h5 header-font">GitHub</span></a></li>
+                           <li> <a href="mailto:jmj928@vt.edu" target="_blank" class="col dark-gray width-120">
+                                <i class="fa fa-fw fa-2x fa-envelope-square valign-middle"></i>
+                                <span class="h5 header-font">Email</span></a></li>
+                        </ul>
+                    </div>
             </div>
+    
+        </div> 
+    
 
-        </div>
-
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2018 Janel Jones </p>
+        </footer>
     </main>
-
-
-
-    <footer class="footer fixed-bottom text-center py-3 w-100" style="background-color: #666 ;border-top: 8px solid #4aaaa5; color: white; position: fixed; bottom: 0">
-        <div class="container">
-            <span class="text-muted">© 2018 Copyright</span>
-        </div>
-    </footer>
-
 
 
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
